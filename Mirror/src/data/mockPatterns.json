@@ -1,0 +1,347 @@
+[
+    {
+        "id": "late-night-spiral",
+        "name": "Late Night Spiral",
+        "timeWindow": "11 PM – 2 AM",
+        "triggerType": "emotional",
+        "moodEmoji": "🌀",
+        "topApp": "Instagram",
+        "daysActive": 5,
+        "confidence": 87,
+        "storyText": "Every night around 11 PM, as the day's responsibilities fade, you find yourself reaching for Instagram — not to connect, but to escape. The scrolling intensifies after stressful events or social friction, turning minutes into hours you don't remember. This pattern has appeared 5 nights out of the last 7, almost always ending past 1:30 AM. The silence of the night amplifies the pull, making each reel feel like a necessary salve.",
+        "reflectionPrompt": "What emotion was present the last time you opened Instagram after midnight? Was there something you were trying to avoid feeling?",
+        "weeklyHistory": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ],
+        "topApps": [
+            {
+                "name": "Instagram",
+                "minutes": 94,
+                "behaviorTag": "Mindless Scroll",
+                "proportion": 0.62
+            },
+            {
+                "name": "YouTube",
+                "minutes": 38,
+                "behaviorTag": "Rabbit Hole",
+                "proportion": 0.25
+            },
+            {
+                "name": "Reddit",
+                "minutes": 20,
+                "behaviorTag": "Comment Reading",
+                "proportion": 0.13
+            }
+        ],
+        "hourlyData": [
+            5,
+            8,
+            6,
+            4,
+            3,
+            5,
+            7,
+            9,
+            12,
+            18,
+            22,
+            28,
+            30,
+            35,
+            40,
+            42,
+            38,
+            45,
+            60,
+            85,
+            92,
+            78
+        ],
+        "patternHighlight": {
+            "startHour": 17,
+            "endHour": 20
+        }
+    },
+    {
+        "id": "monday-dread-scroll",
+        "name": "Monday Dread Scroll",
+        "timeWindow": "7 AM – 9 AM",
+        "triggerType": "habitual",
+        "moodEmoji": "😩",
+        "topApp": "Twitter/X",
+        "daysActive": 6,
+        "confidence": 91,
+        "storyText": "Monday mornings have a distinct fingerprint in your data: a sharp spike in Twitter/X usage that begins the moment your alarm goes off. The pattern is remarkably consistent — you reach for your phone before your feet hit the floor, spending 40–60 minutes doomscrolling news and hot takes before the week even begins. This ritual has repeated every Monday for the past 6 weeks without exception. What started as 'staying informed' has become a predictable anxiety loop that colors the rest of your day.",
+        "reflectionPrompt": "How do you feel after your Monday morning scroll session — more prepared, or more anxious? What would it feel like to start Monday differently?",
+        "weeklyHistory": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "topApps": [
+            {
+                "name": "Twitter/X",
+                "minutes": 52,
+                "behaviorTag": "Doomscroll",
+                "proportion": 0.58
+            },
+            {
+                "name": "News Apps",
+                "minutes": 24,
+                "behaviorTag": "Headline Scanning",
+                "proportion": 0.27
+            },
+            {
+                "name": "Gmail",
+                "minutes": 14,
+                "behaviorTag": "Anxiety Check",
+                "proportion": 0.15
+            }
+        ],
+        "hourlyData": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            3,
+            5,
+            72,
+            80,
+            45,
+            20,
+            15,
+            10,
+            8,
+            6,
+            7,
+            8,
+            10,
+            12,
+            14,
+            10,
+            6
+        ],
+        "patternHighlight": {
+            "startHour": 1,
+            "endHour": 3
+        }
+    },
+    {
+        "id": "midday-escape",
+        "name": "Midday Escape",
+        "timeWindow": "12 PM – 2 PM",
+        "triggerType": "fatigue",
+        "moodEmoji": "😮‍💨",
+        "topApp": "YouTube",
+        "daysActive": 4,
+        "confidence": 78,
+        "storyText": "After a morning of focused work, your brain hits a wall around noon. Instead of taking a genuine break, you pivot to YouTube — opening one video that cascades into three or four over the next hour. The content is rarely productive, mostly entertainment, ASMR, or video essays that offer cognitive rest but little restoration. This pattern appears most on days with dense morning calendars, suggesting decision fatigue as the primary trigger. The lunch break becomes a two-hour detour you didn't plan for.",
+        "reflectionPrompt": "What kind of break would actually restore your energy at midday — movement, food, quiet? What are you really needing when you open YouTube?",
+        "weeklyHistory": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+        ],
+        "topApps": [
+            {
+                "name": "YouTube",
+                "minutes": 68,
+                "behaviorTag": "Passive Consumption",
+                "proportion": 0.65
+            },
+            {
+                "name": "TikTok",
+                "minutes": 22,
+                "behaviorTag": "Random Browse",
+                "proportion": 0.21
+            },
+            {
+                "name": "Spotify",
+                "minutes": 15,
+                "behaviorTag": "Background Noise",
+                "proportion": 0.14
+            }
+        ],
+        "hourlyData": [
+            4,
+            3,
+            3,
+            4,
+            5,
+            6,
+            10,
+            14,
+            18,
+            22,
+            28,
+            30,
+            75,
+            82,
+            60,
+            30,
+            20,
+            22,
+            25,
+            28,
+            18,
+            10
+        ],
+        "patternHighlight": {
+            "startHour": 6,
+            "endHour": 8
+        }
+    },
+    {
+        "id": "weekend-binge",
+        "name": "Weekend Binge",
+        "timeWindow": "Sat–Sun, 2 PM – 11 PM",
+        "triggerType": "intentional",
+        "moodEmoji": "🎮",
+        "topApp": "Netflix",
+        "daysActive": 7,
+        "confidence": 95,
+        "storyText": "Weekends are your deliberate permission slip to disengage. Saturday and Sunday afternoons trigger long, intentional Netflix sessions — often 4 to 6 hours of uninterrupted streaming that you plan in advance. Unlike your other patterns, this one doesn't feel reactive or compulsive; it's a conscious choice you've made and reaffirmed every week for the past 7 weeks. The binge typically starts after lunch and ends with a vague sense of time having dissolved, leaving Sunday evening feeling both restful and slightly wasteful.",
+        "reflectionPrompt": "Is your weekend screen time genuinely restorative, or does it leave you feeling like you missed something? What does an ideal weekend look like to you?",
+        "weeklyHistory": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "topApps": [
+            {
+                "name": "Netflix",
+                "minutes": 240,
+                "behaviorTag": "Series Marathon",
+                "proportion": 0.72
+            },
+            {
+                "name": "YouTube",
+                "minutes": 55,
+                "behaviorTag": "Video Essay",
+                "proportion": 0.16
+            },
+            {
+                "name": "Games",
+                "minutes": 40,
+                "behaviorTag": "Casual Gaming",
+                "proportion": 0.12
+            }
+        ],
+        "hourlyData": [
+            2,
+            1,
+            1,
+            1,
+            2,
+            3,
+            5,
+            8,
+            12,
+            15,
+            18,
+            20,
+            22,
+            28,
+            55,
+            80,
+            90,
+            95,
+            85,
+            75,
+            60,
+            40
+        ],
+        "patternHighlight": {
+            "startHour": 8,
+            "endHour": 15
+        }
+    },
+    {
+        "id": "pre-sleep-check",
+        "name": "Pre-Sleep Check",
+        "timeWindow": "9:30 PM – 11 PM",
+        "triggerType": "habitual",
+        "moodEmoji": "🔔",
+        "topApp": "WhatsApp",
+        "daysActive": 7,
+        "confidence": 96,
+        "storyText": "Every single night, without fail, you open WhatsApp between 9:30 and 10:30 PM for a 'quick check' that stretches 30–45 minutes. The behavior is deeply ritualized — you check even when you know there's nothing new, cycling through the same chats in the same order. This pattern appears all 7 days of the week and is so consistent that it's essentially become your bedtime routine. The blue light and social stimulation from these late notifications likely delay your sleep onset by 45–60 minutes each night.",
+        "reflectionPrompt": "What would happen if you turned your phone off at 9 PM tonight? What fear comes up when you imagine not checking?",
+        "weeklyHistory": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "topApps": [
+            {
+                "name": "WhatsApp",
+                "minutes": 38,
+                "behaviorTag": "Habitual Check",
+                "proportion": 0.55
+            },
+            {
+                "name": "Instagram",
+                "minutes": 18,
+                "behaviorTag": "Story Viewing",
+                "proportion": 0.26
+            },
+            {
+                "name": "Email",
+                "minutes": 13,
+                "behaviorTag": "Compulsive Refresh",
+                "proportion": 0.19
+            }
+        ],
+        "hourlyData": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            4,
+            6,
+            10,
+            14,
+            18,
+            20,
+            22,
+            20,
+            18,
+            22,
+            25,
+            28,
+            32,
+            30,
+            75,
+            80,
+            55
+        ],
+        "patternHighlight": {
+            "startHour": 13,
+            "endHour": 15
+        }
+    }
+]

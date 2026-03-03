@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #0F0F14;
+        color: #E8E8F0;
+        font-family: 'Inter', system-ui, sans-serif;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #0F0F14;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #2A2A3A;
+        border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #4F8EF7;
+    }
+
+    ::selection {
+        background: #4F8EF733;
+        color: #E8E8F0;
+    }
+
+    /* Global focus-visible — trigger color set per-component via CSS var */
+    :focus-visible {
+        outline: 2px solid var(--focus-color, #4F8EF7);
+        outline-offset: 3px;
+        border-radius: 6px;
+    }
+}
+
+/* ── Skeleton shimmer ────────────────────────────────────────── */
+@keyframes shimmer {
+    0% {
+        background-position: -600px 0;
+    }
+
+    100% {
+        background-position: 600px 0;
+    }
+}
+
+.skeleton {
+    background: linear-gradient(90deg,
+            #1A1A24 25%,
+            #252535 50%,
+            #1A1A24 75%);
+    background-size: 600px 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+    border-radius: 8px;
+}
+
+/* ── Scroll-progress bar ─────────────────────────────────────── */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    z-index: 9999;
+    transform-origin: left;
+    pointer-events: none;
+}
+
+/* ── Hide scrollbar on horizontal rows ──────────────────────── */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+/* ── Responsive page padding ─────────────────────────────────── */
+.page-wrap {
+    padding: 32px 16px 80px;
+    /* 375px default */
+}
+
+@media (min-width: 640px) {
+    .page-wrap {
+        padding: 40px 28px 80px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .page-wrap {
+        padding: 48px 32px 96px;
+    }
+}
+
+/* ── Pattern grid breakpoints ────────────────────────────────── */
+.pattern-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+
+@media (min-width: 640px) {
+    .pattern-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+/* ── Card hover focus ring helper ───────────────────────────── */
+.card-focusable:focus-visible {
+    outline: 2px solid var(--card-color, #4F8EF7);
+    outline-offset: 3px;
+    border-radius: 16px;
+}
